@@ -10,7 +10,7 @@ set -e
 
 export SAMPLE_NAME=magento-sample-data-1.6.1.0
 MAGENTO_ADMIN_USERNAME="admin"
-MAGENTO_ADMIN_PASSWORD="OpenShiftAdmin123"
+MAGENTO_ADMIN_PASSWORD="123456"
 
 if [ ! -f ${OPENSHIFT_DATA_DIR}.magento-sample-installed ];
 then
